@@ -1,0 +1,12 @@
+{
+  "name": "dccn-quiz-arena",
+  "version": "0.3.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx vercel dev",
+    "preview": "python -m http.server 8000",
+    "deploy": "npx vercel --prod",
+    "test": "node qa-checks.cjs"
+  }
+}

@@ -1,0 +1,5 @@
+project_id = "wyrasydffupqywehdnze"
+
+[functions.quiz-api]
+# The function validates its own short-lived HMAC session token.
+verify_jwt = false

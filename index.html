@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f6f3">
+  <meta name="description" content="An individual assessment for CSE2251 Data Communication and Computer Networks.">
+  <title>DCCN Quiz Arena · CSE2251</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="supabase-config.js"></script>
+  <script defer src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" id="brandHome" aria-label="DCCN Quiz Arena home">
+      <span class="brand-mark">D</span>
+      <span><strong>DCCN</strong><small>QUIZ ARENA</small></span>
+    </a>
+    <nav class="topnav" aria-label="Main navigation">
+      <button class="nav-btn" id="navHome">Home</button>
+      <button class="nav-btn" id="navLeaderboard">Leaderboard</button>
+    </nav>
+    <span class="course-chip">CSE2251 <span>·</span> Data Communication &amp; Computer Networks</span>
+  </header>
+  <main id="app" class="app-shell" aria-live="polite"></main>
+  <footer class="footer">
+    <span>DCCN Quiz Arena <span aria-hidden="true">·</span> CSE2251</span>
+    <span>Individual assessment · 10 marks</span>
+  </footer>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
